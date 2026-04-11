@@ -12,7 +12,7 @@ public class Controller {
 	@GetMapping(path = "/getHelloWorld")
 	public String helloWorld() {
 		
-		return "Hello world";
+		return "Hello world....";
 		}
 	
 	@GetMapping(path = "/getHelloWorldBean")
